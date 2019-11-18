@@ -1,0 +1,29 @@
+{
+  "name": "microui-cli",
+  "version": "0.1.0",
+  "keywords": ["webcomponent", "javascript","frontend","cli","microui","microuihub","microui-cli","cli","reusable"],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Santanu Kumar<sanmeranam@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@node-minify/clean-css": "^5.2.0",
+    "@node-minify/core": "^5.2.0",
+    "archiver": "^3.1.1",
+    "cli-progress": "^3.4.0",
+    "fs-extra": "^8.1.0",
+    "node-minify": "^3.6.0",
+    "prompt": "^1.0.0",
+    "request": "^2.88.0",
+    "rimraf": "^3.0.0",
+    "tmp": "^0.1.0"
+  },
+  "bin": {
+    "microui": "index.js"
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "devDependencies": {},
+  "description": "MicroUI CLI for setting up developer project and consumer project."
+}
