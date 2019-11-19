@@ -3,3 +3,5 @@ node_modules
 .microui.json
 src
 index.html
+.vscode
+test
