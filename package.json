@@ -1,6 +1,6 @@
 {
   "name": "microui-cli",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "keywords": [
     "webcomponent",
     "javascript",
@@ -16,6 +16,9 @@
   "scripts": {
     "publish": "npm publish"
   },
+  "repository": {
+    "url": "https://github.com/Micro-UI-Hub/microui-cli.git"
+  },
   "author": "Santanu Kumar<sanmeranam@gmail.com>",
   "license": "ISC",
   "dependencies": {
@@ -25,10 +28,13 @@
     "fs-extra": "^8.1.0",
     "glob": "^7.1.6",
     "inquirer": "^7.0.0",
+    "jsonschema": "^1.2.4",
+    "mime": "^2.4.4",
     "ncp": "^2.0.0",
     "promise": "^8.0.3",
     "request": "^2.88.0",
     "rimraf": "^3.0.0",
+    "sonarqube-scanner": "^2.5.0",
     "tmp": "^0.1.0"
   },
   "bin": {

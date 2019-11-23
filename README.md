@@ -1,8 +1,5 @@
 # Micro UI
 
-[![img](base_logo.png)](https://microuihub.com)
-
-
 This is CLI based package to build and publish a micro UI or reusable web-component to microuihub.com for public access and use. 
 
 [![npm version](https://img.shields.io/npm/v/microui-cli.svg)](https://www.npmjs.com/package/microui-cli)
