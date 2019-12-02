@@ -14,7 +14,8 @@
   ],
   "main": "index.js",
   "scripts": {
-    "publish": "npm publish"
+    "publish": "npm publish",
+    "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "repository": {
     "url": "https://github.com/Micro-UI-Hub/microui-cli.git"
@@ -40,6 +41,9 @@
   "bin": {
     "microui": "index.js"
   },
-  "devDependencies": {},
-  "description": "MicroUI CLI for setting up developer project and consumer project."
+  "devDependencies": {
+    "mocha": "6.2.2",
+    "chai": "4.2.0"
+  },
+  "description": "Publish your reusable web component to microuihub.com by MicroUI CLI. This package is for setting up developer project to publish."
 }
