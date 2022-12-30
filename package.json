@@ -42,7 +42,7 @@
     "microui": "index.js"
   },
   "devDependencies": {
-    "mocha": "6.2.2",
+    "mocha": "10.2.0",
     "chai": "4.2.0"
   },
   "description": "Publish your reusable web component to microuihub.com by MicroUI CLI. This package is for setting up developer project to publish."
